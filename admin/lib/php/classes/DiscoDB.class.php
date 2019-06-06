@@ -31,7 +31,7 @@ class DiscoDB extends Disco{
     }
     public function getIdDisque($nom){
       try{
-          $query = "select id_disque,prix from disque where nom_disque=:nom";
+          $query = "select id_disque from disque where nom_disque=:nom";
           $resultset = $this->_db->prepare($query);
           $resultset->bindValue(':nom',$nom);
           $resultset->execute();
