@@ -1,0 +1,152 @@
+/*PAGE GENERAL*/
+h1
+{
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 2px 2px 2px #8A0808;
+
+}
+body
+{
+	background-color: black;
+	color: #610B0B;
+	font-family: Snell Roundhand, cursive;
+}
+.ban
+{
+	text-align: center;
+}
+/*MENU*/
+.menu a
+{
+	color: #610B0B;
+	list-style-image:url("./images/puce.png");
+	float:left;
+}
+.menu a:hover
+{
+	text-shadow: 1px 1px 1px #FFFF00;
+}
+.menu
+{
+	float:left;
+	width: 20%;
+	font-size: 150%;
+}
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+.dropdown
+{
+
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content
+{
+	border:solid 2px;
+	border-color:#610B0B;
+	border-radius:8px;
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 170px;
+}
+.dropdown-content a
+{
+    color: #610B0B;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	font-size: 85%;
+}
+
+li:hover
+{
+		text-shadow: 1px 1px 1px #FFFF00;
+}
+/*STYLE GENERAL DE LA PAGE PRINCIPALE*/
+#princ
+{
+	float:left;
+	width:80%;
+	font-size:125%;
+}
+#princ h3
+{
+	text-decoration:underline;
+}
+/*INTRO*/
+iframe
+{
+	margin-left:10%;
+}
+/*DISCOGRAPHIE*/
+a
+{
+	color: #610B0B;
+}
+#princ a:hover
+{
+	text-shadow: 1px 1px 1px #FFFF00;
+}
+.alb{
+	font-size: 150%;
+	width: 40%;
+}
+/*ACHAT DISQUE && connexion/inscription*/
+.achat
+{
+	text-decoration:underline;
+	font-size:150%;
+}
+
+.achats{ 
+	font-size:150%;
+}
+
+.formu
+{
+	border-style: solid;
+	border-radius: 2px;
+	border-color:#610B0B;
+	background-color: black;
+	color:#610B0B;
+	font-size: 110%;
+}
+/*RESERVATION CONCERT*/
+.tab
+{
+	margin-left:16%;
+	border-style:solid;
+	border-radius:3px;
+	border-color:#610B0B;
+}
+.con
+{
+	margin-left:12%;
+}
+/*deco*/
+h4
+{
+	font-family:bold;
+	margin-left:10%;
+}
+/*FOOTER*/
+.footer
+{
+	float: bottom;
+}
+.footer h2
+{
+	text-decoration: underline;
+}
+/*HEADER*/
+.head
+{
+	border-style: solid;
+	width: 15%;
+	border-radius: 12px;
+	background-color: #151515;
+}
